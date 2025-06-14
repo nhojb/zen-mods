@@ -1,7 +1,6 @@
 # Zen Browser Mods
 
-My modes for the Zen Browser. Install from the [official Zen Mods page](https://zen-browser.app/mods).  
-Comments and suggestions are welcome.
+My mods for the Zen Browser. Comments and suggestions are welcome.
 
 <br>
 
