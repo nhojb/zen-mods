@@ -1,0 +1,12 @@
+ /**
+  * Zen Mod: URL Bar
+  * Remove the inner border from the URL panel for a cleaner look.
+  * © John Buckley
+  */
+@-moz-document url-prefix("chrome:") {
+  #urlbar[breakout-extend='true'] {
+    & #urlbar-background {
+      outline: none !important;
+    }
+  }
+}

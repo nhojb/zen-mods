@@ -1,0 +1,20 @@
+ /**
+* Zen Mod: Glance Buttons
+* Move the glance window buttons to the right and fix the colors in the default light/dark themes.
+* © John Buckley
+*/
+@-moz-document url-prefix("chrome:") {
+  #zen-glance-sidebar-container {
+    left: unset !important;
+    right: 3% !important;
+    top: 60px !important;
+    toolbarbutton {
+      background: light-dark(rgb(231, 231, 231), rgb(24, 24, 24)) !important;
+      box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.07) !important;
+      border: rgba(180, 180, 180, 0.2) 0.2px solid;
+      .toolbarbutton-icon {
+        fill: light-dark(rgba(251, 251, 254, 0.6), rgba(57, 57, 58, 0.6));
+      }
+    }
+  }
+}
